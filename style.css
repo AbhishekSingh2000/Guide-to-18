@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    background-image:url(docs.jpg);
+    background-size: 100vh;
+    margin-bottom: 100px;
+}
+
+.container1{
+    max-width: 60%;
+    margin: auto;
+}
+
+#aadhaar, #promail, #voterid, #pancard, #drivelicense, #bankacc, #passport{
+    max-width: 50%;
+    margin: auto;
+    background-color: #f86146;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 201, 102);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin: 5px;
+    padding:5px;
+    border-radius: 5px;
+    border:5px solid #f86146;
+    font-weight: bolder;
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    }
+
+button:hover{
+    color: white;
+    background-color: #f86146;
+    margin: 5px;
+    padding:5px;
+    border-radius: 5px;
+    border:5px solid #f86146;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+#aadhaarbtn{
+    margin-left: 50px;
+}
+
+#voterid{
+    text-align: left;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    margin: 0px;
+}
+
+h1{
+    font-size: 6rem;
+    margin: 0px;
+    margin-bottom: 10px;
+    background-color: #f86146;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+img{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+#aadhaar, #promail, #voterid, #pancard, #drivelicense, #bankacc, #passport{
+    display: none;
+}
